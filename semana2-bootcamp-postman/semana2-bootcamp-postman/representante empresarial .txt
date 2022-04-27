@@ -3,39 +3,34 @@ JSON LINK
 https://www.getpostman.com/collections/d362f55dc0da552966f7
 
 
-## crear tipo de cliente natural
-post 
-localhost:8090/api/cliente/natural/create-type-client
-json
+## muestra a todos los representantes de empresas
 
-{
-    "typename": "VIP"
+localhost:8090/api/representante/empresarial/all
 
-}
-
-## visualizar todos los tipo de cliente natural
-GET
-localhost:8090/api/cliente/natural/type-all
-
-
-## muestra a todos los clientes persona natural
-
-localhost:8090/api/cliente/natural/all
-
-## crear cliente natural con tipo
+## crear representante empresarial
 localhost:8090/api/cliente/natural/create-natural-response/626208bafd7af9601a085afd
 
 
-localhost:8090/api/cliente/natural/create-natural-response/{idtypeclient}
+
+{
+    "name": "Pedro Perez",
+    "dni": "334434939",
+    "isAccountholder": true
+}
+
+
+
+
 
 
 UPDATE TYPE NATURAL client
 localhost:8090/api/cliente/natural/update-type-client/626208cdfd7af9601a085afe
 
 localhost:8090/api/cliente/natural/update-type-client/{typenaturalId}
-
 {
-    "typename": "standard"
+    "name": "Pedro Perez",
+    "dni": "334434939",
+    "isAccountholder": true
 }
 
 UPDATE NATURAL CLIENT 

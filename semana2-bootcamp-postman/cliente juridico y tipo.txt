@@ -1,0 +1,47 @@
+INSERT TIPO CLIENTE CORPORATIVO
+POST
+localhost:8090/api/cliente/juridico/create-type-corporate
+
+{
+
+ "typename":"average"
+
+}
+
+INSERT CLIENTE CORPORATIVO
+
+localhost:8090/api/cliente/juridico/create-corporate-client/6266e93b92137067a5ac266b
+localhost:8090/api/cliente/juridico/create-corporate-client/{tipoCorpId}
+
+{
+
+ "corporatename":"SAGA FALABELA COMPANY",
+ "ruc":"777727772727",
+ "clientStatus":"moroso"
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BUSQUEDAS
+GET
+localhost:8090/api/cliente/juridico/all
+
+localhost:8090/api/cliente/natural/type-all
