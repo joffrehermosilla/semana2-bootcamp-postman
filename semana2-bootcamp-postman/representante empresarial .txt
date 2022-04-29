@@ -1,0 +1,64 @@
+JSON LINK
+
+https://www.getpostman.com/collections/d362f55dc0da552966f7
+
+##BALANCEADOR
+localhost:8090/api/representante/empresarial/balanceador-test
+
+
+
+## muestra a todos los representantes de empresas
+
+localhost:8090/api/representante/empresarial/all
+
+## crear representante empresarial
+
+POST
+localhost:8090/api/representante/empresarial/create-business-representative
+
+
+
+{
+    "name": "Pedro Perez",
+    "dni": "334434939",
+    "isAccountholder": true
+}
+
+
+
+
+
+
+UPDATE TYPE NATURAL client
+
+PUT
+localhost:8090/api/representante/empresarial/update-business-representative/626827497daff4051c89e880
+{
+    "name": "Pedro Perez",
+    "dni": "334434939",
+    "isAccountholder": false,
+    "corporateClientId": "626704a0d1a7b02affc47c3d"
+}
+
+
+
+
+DELETE NATURAL CLIENT
+
+localhost:8090/api/cliente/natural/eliminar-cliente-natural/6261c61d1b5c6065aaabcd51
+
+
+
+
+BUSQUEDAS
+GET
+
+localhost:8090/api/representante/empresarial/all
+
+
+localhost:8090/api/representante/empresarial/corporate-client/626708cdd1a7b02affc47c3f
+
+
+
+
+
